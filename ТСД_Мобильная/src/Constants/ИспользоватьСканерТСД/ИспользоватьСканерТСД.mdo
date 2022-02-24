@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ed27abf-b054-4272-bb1a-ed0311dec79d">
+  <producedTypes>
+    <managerType typeId="f39c5f1d-ce61-4d67-a156-f25b75c2a1fe" valueTypeId="3112178d-7c5a-44fa-972d-82d3b7f80ffc"/>
+    <valueManagerType typeId="871d3cca-11e5-4e94-be83-2f1611a36d69" valueTypeId="1344b61f-b188-45b7-ba62-cd635bde2f9f"/>
+    <valueKeyType typeId="5b93238a-cc14-406c-99fe-44a7e74efb66" valueTypeId="fc102cc4-534e-4fc0-b5cd-573088711b07"/>
+  </producedTypes>
+  <name>ИспользоватьСканерТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сканер ТСД</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

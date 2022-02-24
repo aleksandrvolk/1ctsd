@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="576983b1-26ca-41ef-b049-55d40c4c905d">
+  <name>Mobile_Inventary</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильная инвентаризация</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e60b1a8a-f35f-4600-b114-f17f97a8788e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="82eabc14-69c8-4352-bd27-5a9482611de9"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="53753250-5f95-48f8-a39c-24cd0f5a6d51"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0ba0a969-4ff4-4106-b0c2-9a7938bc86e8"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0a5fd8aa-a12f-4151-a3ff-811777e240f9"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="4143f1d7-ce90-468f-92d2-9c7434804b1a"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="12a423a8-1737-46c8-91fe-65f78668d74a"/>
+  <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>ВОблачке.РФ</vendor>
+  <version>1.0.0</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <functionality>Camera</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="e3bd14ee-23f1-4abc-9777-e85a69054325">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonTemplates>CommonTemplate.ДрайверСканераШтрихкодовAndroid</commonTemplates>
+  <commonTemplates>CommonTemplate.AddIn</commonTemplates>
+  <commonModules>CommonModule.Обмен</commonModules>
+  <exchangePlans>ExchangePlan.Мобильные</exchangePlans>
+  <commonCommands>CommonCommand.ОбменСЦентральнойБазой</commonCommands>
+  <constants>Constant.АдресЦентральнойБазы</constants>
+  <constants>Constant.КодЦентральнойБазы</constants>
+  <constants>Constant.ЛогинЦентральнойБазы</constants>
+  <constants>Constant.ПарольЦентральнойБазы</constants>
+  <constants>Constant.ИспользоватьСканерТСД</constants>
+  <commonForms>CommonForm.Настройки</commonForms>
+  <catalogs>Catalog.ОсновныеСредства</catalogs>
+  <catalogs>Catalog.ИнвентарныеНомераОС</catalogs>
+  <catalogs>Catalog.ЦМО</catalogs>
+  <documents>Document.ИнвентаризацияДляМП</documents>
+  <dataProcessors>DataProcessor.ЗапаснойОбменДанными</dataProcessors>
+  <informationRegisters>InformationRegister.Штрихкоды</informationRegisters>
+</mdclass:Configuration>
