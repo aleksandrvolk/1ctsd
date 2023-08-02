@@ -7,13 +7,9 @@
 	Попытка
         ПодключитьВнешнююКомпоненту("ОбщийМакет.AddIn", "LibData", ТипВнешнейКомпоненты.Native);
         Компонента = Новый("AddIn.LibData.AddInNativeBEN");
-        //Компонента.StartGetScan();
 		Компонента.StartMyGetScan("DATA_SCAN","com.hht.emdk.datawedge.data_string");
-		
 		//Компонента.StartMyGetScan("scan.rcv.message","data");
-		
 		//Сообщить(Компонента.IsEnabled);
-		//Компонента.StartGetKeyEvent();
     Исключение
         Сообщить("драйвер сканирования не смог создать подключения-- сканирование на текущем устройстве работать не будет");
     КонецПопытки;
