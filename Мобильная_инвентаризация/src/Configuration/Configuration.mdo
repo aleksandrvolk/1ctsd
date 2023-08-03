@@ -47,6 +47,7 @@
   <constants>Constant.КодЦентральнойБазы</constants>
   <constants>Constant.ЛогинЦентральнойБазы</constants>
   <constants>Constant.ПарольЦентральнойБазы</constants>
+  <constants>Constant.ИспользоватьСканерТСД</constants>
   <commonForms>CommonForm.Настройки</commonForms>
   <commonForms>CommonForm.ФормаСканераШтрихкода</commonForms>
   <catalogs>Catalog.ОсновныеСредства</catalogs>
