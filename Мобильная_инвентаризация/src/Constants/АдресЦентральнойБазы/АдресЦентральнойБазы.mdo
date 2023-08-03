@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ffd2852-99fa-421b-afd0-7b4e819cf80e">
+  <producedTypes>
+    <managerType typeId="1269f58e-2a72-4f2a-bd84-16f1140236b7" valueTypeId="76fbb71a-147f-4074-9113-be894994d295"/>
+    <valueManagerType typeId="57fa3c7a-1f64-4c90-b3c7-2f72728f2ef9" valueTypeId="a664b9db-8e40-4b6f-a762-dbb0ca73123b"/>
+    <valueKeyType typeId="104bcf6a-0471-414c-b258-a0cedf12dc1c" valueTypeId="8c7e376c-3031-4099-abdd-3c1d5f3708c7"/>
+  </producedTypes>
+  <name>АдресЦентральнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес центральной базы</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>256</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

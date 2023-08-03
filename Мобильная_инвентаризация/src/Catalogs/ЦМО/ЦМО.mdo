@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9f193c9-bb63-45ec-91f0-118e4f5f0a81">
+  <producedTypes>
+    <objectType typeId="c9a537b2-b6b2-44b5-88df-9ed16ea9e3c8" valueTypeId="18eb7b67-4b70-4771-b47b-b716a0ab8e1f"/>
+    <refType typeId="d05d7b2f-f1d9-421e-8799-42cdae9da1ff" valueTypeId="cb56e87f-f7c3-47ed-be0c-1e45b0a5880b"/>
+    <selectionType typeId="ae77ad12-b656-4e00-b293-506572ab6282" valueTypeId="00ce2bd2-41eb-4fed-b50b-664de8942eaf"/>
+    <listType typeId="dc5a7498-2926-49d9-aa49-62318ef7d3af" valueTypeId="b98b4a82-27ec-4561-828d-5ea761352324"/>
+    <managerType typeId="40b9b396-b5d8-43a7-b0bd-17e920bba4d6" valueTypeId="3d7b0241-4f77-4d25-9ce1-3aa3fa95f331"/>
+  </producedTypes>
+  <name>ЦМО</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЦМО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЦМО.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЦМО.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
